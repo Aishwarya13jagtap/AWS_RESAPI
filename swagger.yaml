@@ -1,0 +1,75 @@
+{
+    "resource": "/devices",
+    "path": "/devices",
+    "httpMethod": "POST",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Cache-Control": "no-cache",
+      "Content-Type": "application/json",
+      "Host": "y56z1ib2l8.execute-api.ap-south-1.amazonaws.com",
+      "Postman-Token": "8f30c67b-aab4-408b-aac8-ed2005695132",
+      "User-Agent": "PostmanRuntime/7.39.0",
+      "X-Amzn-Trace-Id": "Root=1-6690fa68-3e434aaa7994b23e525fb876",
+      "X-Forwarded-For": "196.1.1.6",
+      "X-Forwarded-Port": "443",
+      "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+      "Accept": ["*/*"],
+      "Accept-Encoding": ["gzip, deflate, br"],
+      "Cache-Control": ["no-cache"],
+      "Content-Type": ["application/json"],
+      "Host": ["y56z1ib2l8.execute-api.ap-south-1.amazonaws.com"],
+      "Postman-Token": ["8f30c67b-aab4-408b-aac8-ed2005695132"],
+      "User-Agent": ["PostmanRuntime/7.39.0"],
+      "X-Amzn-Trace-Id": ["Root=1-6690fa68-3e434aaa7994b23e525fb876"],
+      "X-Forwarded-For": ["196.1.1.6"],
+      "X-Forwarded-Port": ["443"],
+      "X-Forwarded-Proto": ["https"]
+    },
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": null,
+    "stageVariables": null,
+    "requestContext": {
+      "resourceId": "nxk5ne",
+      "resourcePath": "/devices",
+      "httpMethod": "POST",
+      "extendedRequestId": "aywQcE85hcwELlQ=",
+      "requestTime": "12/Jul/2024: 09: 42: 00 +0000",
+      "path": "/diot/devices",
+      "accountId": "590183926763",
+      "protocol": "HTTP/1.1",
+      "stage": "diot",
+      "domainPrefix": "y56z1ib2l8",
+      "requestTimeEpoch": 1720777320926,
+      "requestId": "e31839d8-218b-4efb-b130-b673fe22aedd",
+      "identity": {
+        "cognitoIdentityPoolId": null,
+        "accountId": null,
+        "cognitoIdentityId": null,
+        "caller": null,
+        "sourceIp": "196.1.1.6",
+        "principalOrgId": null,
+        "accessKey": null,
+        "cognitoAuthenticationType": null,
+        "cognitoAuthenticationProvider": null,
+        "userArn": null,
+        "userAgent": "PostmanRuntime/7.39.0",
+        "user": null
+      },
+      "domainName": "y56z1ib2l8.execute-api.ap-south-1.amazonaws.com",
+      "deploymentId": "senppv",
+      "apiId": "y56z1ib2l8"
+    },
+    "body": {
+      "device_id": 1,
+      "device_type": "RPI",
+      "sensor_data": {
+        "temperature": 45,
+        "humidity": 85
+      }
+    },
+    "isBase64Encoded": false
+  }
